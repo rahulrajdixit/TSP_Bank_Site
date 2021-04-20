@@ -1,0 +1,188 @@
+                            /*body*/
+body{
+	background-color:#dcdcdc;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;	
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+	background-image: url('doodle_wallpaper1.jpg');
+	background-color: rgba(255,255,255,0.8);
+	background-blend-mode: lighten;
+}
+
+.container{
+	width:65%;
+	margin:auto;
+	overflow:hidden;
+}
+                            /*main title*/
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+#main-header{
+	background-color:tomato;
+	color:#fff;
+	padding: 10px;
+}
+#main-header #outer{
+	background-color: white;
+	border-radius: 18px;
+	color: #333;
+	padding: 13px;
+}
+#main-header #inner{
+	background-color: #333;
+	border-radius: 16px;
+	padding: 6px;
+	color: tomato;
+}
+                           /*navigation bar*/ 
+#navbar{						
+	background-color:#333;
+	color:#fff;
+}
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+#navbar li{
+	display:inline;
+}
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+                                        /*showcase*/
+#showcase{
+	background-image:url('red.jpg');
+	background-position:center;
+	min-height:300px;
+	margin-bottom:30px;
+	text-align: center;
+}
+#showcase h1{
+	color:#fff;	
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top:30px;
+}
+                          /*apps*/
+.apps{
+	border: 5px solid #333;
+	margin: auto;
+	border-radius: 13px;
+	background-color: #f2f2f2;
+	overflow: auto;
+	margin-top: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	/*background-image: url('images/doodle_wallpaper1.jpg');*/
+}
+.apps h2{
+	margin-top: 40px;
+	color: black;
+	text-align: center;
+	background-color: tomato;
+	padding: 20px;
+	border: 6px solid #333;
+}
+.images{
+	margin: 4%;
+	border: 2px  solid #ccc;
+	float: left;
+	width: 200px;            /*image size!*/
+	border-radius: 15px;
+}
+.images img
+{
+	resize: 100%;
+	width: 100%;
+	height: auto;
+	align-items: center;
+	max-width: 100%;
+	height: auto;
+	max-height: 200px;
+}
+.images:hover{
+	box-shadow: 0 0 20px 20px rgba(0, 130, 200, 0.5);
+}
+.desc{
+	padding: 16px;
+	text-align: center;
+}
+	.desc:hover{
+		text-decoration: underline;
+		text-decoration-color: darkblue;
+	}
+                         /*footer*/
+.ad{
+	text-align: center;
+	text-decoration-color: white;
+	text-decoration: none;
+	color: lime;
+	background-color: #333;
+	position: fixed;
+	top:360px;
+	right: 13px;
+	float: right;
+	height: 220px;
+	width: 190px;
+	border: 3px solid lime;
+}
+.ad h2{
+	color: white;
+}
+.ad span{
+	background-color: lime;
+	border-radius: 10px;
+	color: #333;
+	padding: 5px;
+}
+.ad p{
+	text-align: center;
+	color: grey;
+	text-decoration: none;
+	padding-right: 15px;
+}
+.ad a{
+	color: white;
+}
+.ad .name{
+	text-align: right;
+}
+.content{
+	text-align: center;
+	position: fixed;
+	top: 165px;
+	height: 310px;
+	width: 190px;
+	left:12px;
+	text-decoration: none;
+	background-color: #fff;
+	border: 2px solid #222;
+}
+.content h1{
+	text-decoration: underline;
+}
+.content a{
+	color: #2196F3;
+	text-decoration: none;
+}
+.content a:hover{
+	color: #064579;
+}
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+}
