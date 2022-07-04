@@ -1,5 +1,5 @@
 # TSP_Bank_Site
-This was a web application that demonstrates the transcation based operations in a banking-application. 
+This is a web application that demonstrates the transcation based operations in a banking-application.
 
 <img width="560" alt="pic 0" src="https://user-images.githubusercontent.com/61109976/159156539-2b69d2a1-0b06-4bd2-a08b-a6f449d46175.png">
 
